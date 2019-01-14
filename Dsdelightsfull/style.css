@@ -1,0 +1,280 @@
+#mainlogo {
+    border-radius: 8px;
+    height: 550px;
+    width: 500px;
+ /*   max-width: 100%;
+    height: auto;*/
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-weight: 1000;
+	color: #FBD000;
+	text-shadow: -1.7px 0 white, 0 1.7px white, 1.7px 0 white, 0 -1.7px white;
+}
+
+p {
+	font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    /*font-style: italic;*/
+}
+
+.main-content {
+    padding: 5%;
+    flex: 1 1 80%;
+    min-height: 100vh;
+}
+
+.portfolio {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
+
+.portfolio-item {
+    background: #f96855;
+    color: #c4c4c4;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-size: cover;
+    background-position: top left;
+    transition: all ease-in-out 300ms;
+    position: relative;
+    z-index: 10;
+}
+.portfolio-item.small {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.portfolio-item.medium {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.portfolio-item.large {
+    grid-row: span 3;
+    grid-column: span 3;
+}
+.portfolio-item.xl {
+    grid-row: span 4;
+    grid-column: span 4;
+}
+
+.fade4 {
+-webkit-animation: fade 4s;
+animation: fade 4s;
+-moz-animation: fade 4s;
+-o-animation: fade 4s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100% {opacity:0.2}
+}
+
+@-moz-keyframes fade{
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100% {opacity:0}  
+}
+
+@keyframes fade {
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100%{opacity: 0.2}
+    }
+@-o-keyframes fade {
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100%{opacity: 0.2}
+
+}
+
+
+.fade6 {
+-webkit-animation: fade 6s;
+animation: fade 6s;
+-moz-animation: fade 6s;
+-o-animation: fade 6s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0} 
+    50% {opacity: 1}
+    100% {opacity:0}
+}
+
+@-moz-keyframes fade{
+    0% {opacity: 0} 
+    50% {opacity: 1}
+    100% {opacity:0}  
+}
+
+@keyframes fade {
+    0% {opacity: 0} 
+    50% {opacity: 1}
+    100%{opacity: 0}
+    }
+@-o-keyframes fade {
+    0% {opacity: 0} 
+    50% {opacity: 1}
+    100%{opacity: 0}
+
+}
+
+
+.fade75 {
+-webkit-animation: fade 7.5s;
+animation: fade 7.5s;
+-moz-animation: fade 7.5s;
+-o-animation: fade 7.5s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100% {opacity:0.2}
+}
+
+@-moz-keyframes fade{
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100% {opacity:0}  
+}
+
+@keyframes fade {
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100%{opacity: 0.2}
+    }
+@-o-keyframes fade {
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100%{opacity: 0.2}
+
+}
+
+
+.fade8 {
+-webkit-animation: fade 8s;
+animation: fade 8s;
+-moz-animation: fade 8s;
+-o-animation: fade 8s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100% {opacity:0.2}
+}
+
+@-moz-keyframes fade{
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100% {opacity:0}  
+}
+
+@keyframes fade {
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100%{opacity: 0.2}
+    }
+@-o-keyframes fade {
+    0% {opacity: 0.2} 
+    50% {opacity: 1}
+    100%{opacity: 0.2}
+
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
