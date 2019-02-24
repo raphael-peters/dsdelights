@@ -1,72 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>D's Delights</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Pacifico|Source+Sans+Pro:200|Cinzel+Decorative|Kaushan+Script|Paprika|Satisfy" rel="stylesheet">
 </head>
+
 <body>
-    <div class="wrapper">
-        <!-- SideBar -->
-        <nav class="sideBar">
-            <header>
-                <img class="mainLogo" alt="logo" src="MainLogo.png">
-                <br>
-                <br>
-                <p>Bespoke Cakes for all.</p>
-                <br>
-                <nav class="main-nav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <nav class="nav-footer">
-                        <p class="nav-footer-social-icons">
-                            <a class="fa-icon" href="https://instagram.com/d_delightss/" title="">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </p>
-                        <p>Website by <a href="https://github.com/raphael-peters">Raphael Peters</a></p>
-                    </nav>
-                </nav>
-            </header>           
-        </nav>
+    <div class="wrapper">        
+        <!-- Top Container -->
+        <section class="top-container">
+            <div class="main-logo">
+                <img src="ddelightfont.png" title="Home">
+            </div>
+            <!-- Nav starts -->
+            <div id="myDropNav" class="drop-nav">
+                <!-- Button to close the drop-nav navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!-- &times; is the X sign-->
+                
+                <!-- drop-nav content -->
+                <div class="drop-nav-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </div>                    
+            </div>
 
-        <!-- Portfolio -->
-        <section class="Portfolio">
-            <img src="floral.jpg" alt="cake">
-            <img src="floraldrip2.jpg" alt="cake">
-            <img src="floraldrip.jpg" alt="cake">
-            <img src="rosegolddrip2.jpg" alt="cake">
-            <img src="oreo.jpg" alt="cake">
-            <img src="pearlandflower.jpg" alt="cake">
-            <img src="cricket.jpg" alt="cake">
-            <img src="united.jpg" alt="cake">
-            <img src="shunsui.jpg" alt="cake">
-            <img src="trafalgarlaw.jpg" alt="cake">
-            <img src="emoji.jpg" alt="cake">
-            <img src="detailface.jpg" alt="cake">
-            <img src="babyshoe.jpg" alt="cake">
-            <img src="easterbunny.jpg" alt="cake">
-            <img src="cricket2.jpg" alt="cake">
-            <!-- maybe you should have each cakes alternate pictures be the ones the rotate with the carousel function -->
+            
+            <!-- Open/show the drop-nav navigation menu -->
+            <span id="dropButton" class="drop-button" onclick="openNav()">&equiv;</span>
+            <!-- Nav Ends -->
+            
+            <header class="top-info">
+                <h1>Bespoke Cakes Made To Order</h1>
+                <p>You imagine, we create. All requests are unique and catered to your desires. We listen to your all of your requirements, and then build your perfect cake with them in mind. If you can visualise it, then we can produce it.</p>
+                <p>
+                    <a href="#" class="btn">MAKE A REQUEST</a>
+                </p>
+            </header> 
+
+            <div class="top-box">
+                <img src="floralcake.png" alt="">
+            </div>
         </section>
+
+
+        <!-- Middle Container -->
+        <section class="middle-container">
+            <div class="middle-info">
+                <i class="fas fa-truck fa-4x"></i>
+                <h2>Cakes Delivered To Your Door</h2>
+                <p>If you live London we can deliver our cakes directly to your door. If you live outside London please state so in your order to arrange collection.</p>
+            </div>
+            <div class="middle-box">
+                <img src="tedbaker.png" alt="">
+            </div>
+        </section>
+
+
+        <!-- Bottom Container -->
+        <section class="bottom-container">
+            <div class="bottom-info">
+                <h2>Indulge. Share. Enjoy.</h2>
+                <p>As everyone enjoys the cake you ordered, feel free to share with #dsdelights on Instagram and Facebook.</p>
+            </div>
+            <div class="bottom-box">
+                <img src="bishop.png" alt="">
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <hr>
+            <p>D's Delights &copy; 2019</p>
+        </footer>
+
     </div>
-    <!-- Wrapper ends -->
-
+    <!-- Wrapper Ends -->
+    <script type="text/javascript" src="script.js"></script>
 </body>
-</html>
-
 </html>
