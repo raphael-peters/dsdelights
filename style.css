@@ -34,6 +34,18 @@ footer {
     border: 0;
     text-align: center;
 }
+footer p {
+    font-family: Bunch Blossoms Personal Use;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: pink;
+}
 
 img {
     max-width: 80%;
@@ -87,10 +99,11 @@ h1, h2 {
 }
 .btn {
     color: black;
-    /*  */
+    font-family: Bunch Blossoms Personal Use;
 }
+
 .btn:hover {
-    color: red;
+    color: pink;
 }
 
 .top-box {
@@ -107,6 +120,10 @@ h1, h2 {
     top: 18px;
     right: 52px;
     font-size: 60px;
+}
+
+.drop-button:hover {
+    cursor: pointer;
 }
 
 .drop-nav {
@@ -126,7 +143,7 @@ h1, h2 {
   /* Position the content inside the drop-nav */
 .drop-nav-content {
     position: relative;
-    top: 25%; /* 25% from the top */
+    top: 35%; /* 25% from the top */
     height: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
@@ -143,7 +160,7 @@ h1, h2 {
 }
 
 .drop-nav-content {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Bunch Blossoms Personal Use;
 }
   
   /* When you mouse over the navigation links, change their color */
@@ -226,4 +243,24 @@ h1, h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.socialMedia1 {
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: -25%;
+    transform: rotate(-10deg)
+}
+
+.socialMedia2 {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1265px;
+    margin-top: -27%;
+    transform: rotate(10deg)
 }

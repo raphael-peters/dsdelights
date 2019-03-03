@@ -1,0 +1,33 @@
+body {
+    background:#f7eff6;
+}
+
+h1 {
+    font-family: Bunch Blossoms Personal Use;
+}
+
+label {
+    font-family: Bunch Blossoms Personal Use;
+}
+
+input {
+    opacity: 0.6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+}
+
+.button {
+    font-family: Bunch Blossoms Personal Use;
+}
+
+.main-logo {
+    text-align: center;
+    padding: 15px;
+}
+
+.main-logo img {
+    height: auto;
+    width: 32%;
+    padding-top: 10px;
+    margin-right: 40%;
+}
