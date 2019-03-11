@@ -1,0 +1,36 @@
+body {
+    background:rgb(255, 255, 255);
+    min-height: 100vh;
+}
+h1 {
+    font-family: Bunch Blossoms Personal Use;
+}
+.main-logo {
+    text-align: center;
+    padding: 15px;
+}
+
+.main-logo img {
+    height: auto;
+    width: 40%;
+    padding-top: 10px;
+    margin-right: 55%;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
+    word-wrap: break-word;
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+    'text portfolio';
+    padding: 20px;
+}
+.text {
+    padding: 20px;
+    margin-left: 40px;
+}
+.portfolio img {
+    width: 90%;
+}

@@ -29,5 +29,29 @@ input {
     height: auto;
     width: 32%;
     padding-top: 10px;
-    margin-right: 40%;
+    margin-right: 60%;
+}
+
+@media(max-width: 1500px) {
+    .main-logo img {
+        width: 32%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .main-logo img {
+        width: 42%;
+    }
+}
+
+@media(max-width: 800px) {
+    .main-logo img {
+        width: 62%;
+    }
+}
+
+@media(max-width: 500px) {
+    .main-logo img {
+        width: 82%;
+    }
 }
